@@ -1,0 +1,39 @@
+.font-900{
+    font-weight: 900;
+}
+.font-500{
+    font-weight: 500;
+}
+.font-700{
+    font-size: 700;
+}
+.text-size-16{
+    font-size: 16px;
+}
+.text-size-48{
+    font-size: 48px;
+}
+.text-size-18{
+    font-size: 18px;
+}
+.m-20{
+    margin: 20px;
+}
+
+.mt-16{
+    margin-top: 16px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-ml-60{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.p-18{
+    padding: 18px;
+}
+.pt-pl{
+    padding-top: 50px;
+    padding-left: 54px;
+}

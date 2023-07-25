@@ -1,0 +1,14 @@
+.icon{
+    width: 222px;
+    height:60px;
+    background-image: url(../css/icon/Frame.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left:70px; 
+    border-radius: 30px;
+    border: 1px solid color(#e4dcdc);
+    border: none;
+}
+.icon-search{
+    background-image: url(../css/icon/search.svg);
+}

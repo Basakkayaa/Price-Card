@@ -1,0 +1,97 @@
+body{
+    background-color:#F3F2FF, #F3F9FF;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 618px;
+    height: 731px;
+    border-radius: 49px;
+    background: linear-gradient(135deg, #E9E8FF 0%, #E7F3FF 100%);
+    display: flex;
+    margin-top: 30px;
+}
+.card::after{
+    content: '';
+    width: 498px;
+    height: 731px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    margin-left: 60px;
+    margin-top: 60px;
+    position:absolute;
+}
+.card-price{
+    font-size: 48px;
+    font-weight: 900;
+    position:relative;
+    color: var(--292-e-5-a, #292E5A);
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    line-height: normal;
+}
+.card-box{
+    /* margin-left: 60px;
+    margin-top: 60px;
+    padding-top: 50px;
+    padding-left: 54px; */
+    /* variable.css de düzenlendi */
+    z-index: 2;
+}
+.card-box-title{
+    margin-left: -150px; 
+    padding-top: 130px;
+    font-size: 18px;
+    gap: 16px;
+}
+.card-title{
+    width: 388px;
+    height: 134px;
+    background-color:#F3F5FF;
+    z-index: 1;
+    margin-top: 474px;
+    margin-left: -387px;
+    border-radius: 8px;
+}
+.card-search{
+   width:222px ;
+   height: 60px;
+    display: flex;
+    padding: 3px;
+    margin-left: 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #B3C7E3;
+}
+input[type="text"]:focus{
+    outline: none;
+    box-shadow: 0 0 5px #7da7ff;
+}
+/* .card-check{
+    width: 126px;
+    height: 60px;
+    padding: 16px;
+    gap: 8px;
+    background-color: white;
+    margin: 37px;
+    border-radius: 8px;
+    border:none;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--292-e-5-a, #292E5A);
+} */
+.card-btn{
+    color: #292E5A;
+    margin-top: 40px;
+    color: var(--292-e-5-a, #292E5A);
+    text-transform: uppercase;
+}
+input{
+  border: none;
+  background-color: transparent;
+}
